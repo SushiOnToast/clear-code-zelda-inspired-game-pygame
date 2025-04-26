@@ -20,7 +20,7 @@ class Game:
                     pygame.quit()
                     sys.exit()
  
-            self.screen.fill('#71ddee')
+            self.screen.fill(WATER_COLOUR)
             self.level.run()
             
             pygame.display.update()
